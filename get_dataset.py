@@ -44,6 +44,7 @@ if not(os.path.exists(unprocessed_data_path)):
     r = requests.get(url, allow_redirects=True)
     open(unprocessed_data_path, 'wb').write(r.content)
 
+
 #read data to pandas dataframe
 
 #    #  Attribute                     Domain
