@@ -6,4 +6,9 @@ Adaptation of code for SAR-PU (Selected-At-Random Posititve Unlabeled) learning 
 
 Run:
 1. get_dataset.py
-2. get_labelings.py
+
+    ```This downloads the dataset and creates the necessary file structure.```
+
+2. get_labels.py
+   
+   ```This applies the labels to the data according to the selected labeling mechanism.```
